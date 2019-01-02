@@ -1,4 +1,4 @@
-annee;type;numero d'acte;nom;prenom;date de deces;date de transcription;ville;code sexe;;image 1;image 2;nombre d'image;heure;departement;date de naissance;ville de naissance;département de naissance;prenom1 père;nom;prenom m;nom m
+annee;type;numero d'acte;nom;prenom;date de deces;date de transcription;ville;code sexe;;image 1;image 2;nombre d'image;heure;departement;date de naissance;ville de naissance;département de naissance;prenom1 père;nom père;prenom m;nom m
 1901;DE;1;LEITNER;Bernhard;19010111;*;Staffelfelden;1;*;1901D001.Tif;1901D001.Tif;1;2130;haut-rhin;xxxx;Staffelfelden;haut-rhin;Johann;LEITNER;Katharina;HASTNER
 1901;DE;2;PFEFFER;Johann;19010214;*;Staffelfelden;1;*;1901D002.Tif;1901D002.Tif;1;900;haut-rhin;xxxx;Staffelfelden;haut-rhin;Dominik;PFEFFER;Maria Anna;BERNER
 1901;DE;3;KOENIG;Maria Rosa;19010221;*;Staffelfelden;2;*;1901D003.Tif;1901D003.Tif;1;1900;haut-rhin;xxxx;Bernweiler;haut-rhin;Augustin;KOENIG;Maria Anna;NAFS

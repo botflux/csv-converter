@@ -1,9 +1,24 @@
 const fs = require ('fs')
 const csv = require('fast-csv')
-const { deceaseMap, resolveMap } = require('./map.js')
-const inputFileName = 'csv/my.csv'
+const convert = require('xml-js')
+const { resolveMap } = require('./map.js')
+const { deceaseMap } = require('./maps/deceaseMap.js')
+const { weddingMap } = require('./maps/weddingMap.js')
 
-let array = []
+const inputFileName = 'csv/my.csv'
+const type = 'Deces'
+
+let xmlParameters = {
+    _declaration: {
+        _attributes: {
+            version: "1.0",
+            encoding: "utf-8"
+        }
+    },
+    Contenu: {
+        [type]: []
+    }
+}
 
 /**
  * Read the file stream and pipe it to a csv reader.
@@ -19,13 +34,16 @@ const stream = fs.createReadStream(inputFileName)
 
         o = resolveMap(deceaseMap, data)
 
-        array = [...array, ...[o]]
+        xmlParameters.Contenu[type] = [...xmlParameters.Contenu[type], ...[o]]
     })
     .on('end', () => {
-        //console.log('done')
-        let json = JSON.stringify(array, null, 2)
-        console.log('done', json)
+        
+        let json = JSON.stringify(xmlParameters, null, 2)
+        //console.log('done', json)
         fs.writeFile('csv/obj.json', json, e => {
-            console.error (e)
+            //console.error (e)
         })
+
+        let xml = convert.json2xml(json, { compact: true, ignoreComment: true, spaces: 4 })
+        fs.writeFile('csv/obj.xml', xml, e => {})
     })

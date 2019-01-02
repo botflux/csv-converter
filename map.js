@@ -1,39 +1,5 @@
 const { transformDate } = require ('./helpers.js')
 
-exports.deceaseMap = {
-    root: 'Deces',
-    map: [
-        {
-            header: null,
-            defaultValue: 4,
-            newName: 'Act_Statut',
-        },
-        {
-            header: `numero d'acte`,
-            newName: 'Act_Numero',
-        },
-        {
-            header: `annee`,
-            newName: 'Act_Ordre',
-        },
-        {
-            header: `date de transcription`,
-            newName: 'Act_Date',
-            resolveField: (data) => {
-                return `${data.slice(0, 4)}-${data.slice(4, 6)}-${data.slice(6)}`
-            }
-        },
-        {
-            header: `heure`,
-            newName: 'Heure_Deces',
-        },
-        {
-            header: 'ville',
-            newName: 'Lie_Commune',
-        },
-    ]
-}
-
 /**
  * Returns the value inside the data object relative to the passed header
  * @param {Object} mapField The map field associate
@@ -67,7 +33,7 @@ const resolveElement = (el, data) => {
  * @param {Object} mapObject The map matching your data 
  * @param {Object} data Data represents an entry of your collection, for example with CSV data is a row
  */
-const resolveMap = ({ root = "root", map = [] }, data) => {
+const resolveMap = ({ map = [] }, data) => {
     return map.reduce((previous, current) => {
         return {...previous, ...resolveElement(current, data) }
     }, {})
