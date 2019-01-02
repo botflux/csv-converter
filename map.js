@@ -68,9 +68,6 @@ const resolveElement = (el, data) => {
  * @param {Object} data Data represents an entry of your collection, for example with CSV data is a row
  */
 const resolveMap = ({ root = "root", map = [] }, data) => {
-
-    let temp = {}
-
     return map.reduce((previous, current) => {
         return {...previous, ...resolveElement(current, data) }
     }, {})
