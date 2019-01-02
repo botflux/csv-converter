@@ -1,5 +1,6 @@
 const fs = require ('fs')
 const csv = require('fast-csv')
+const { deceaseMap } = require('./map.js')
 const inputFileName = 'csv/my.csv'
 
 const transformDate = (date) => {
@@ -9,7 +10,7 @@ const transformDate = (date) => {
 
     return `${date.slice(0, 4)}-${date.slice(4, 6)}-${date.slice(6)}`
 }
-
+/*
 const deceaseMap = {
     root: 'Contenu',
     rootEntity: 'Deces',
@@ -42,7 +43,7 @@ const deceaseMap = {
         }
     ]
 }
-
+*/
 let array = []
 
 /**
