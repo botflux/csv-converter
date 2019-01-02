@@ -1,13 +1,15 @@
 const fs = require ('fs')
 const csv = require('fast-csv')
 
+const inputFileName = 'csv/my.min.csv'
+
 let array = []
 
 /**
  * Read the file stream and pipe it to a csv reader.
  * All rows are read asynchronously.
  */
-const stream = fs.createReadStream('csv/my.min.csv')
+const stream = fs.createReadStream(inputFileName)
     .pipe(csv({
         delimiter: ';',
         headers: true,
