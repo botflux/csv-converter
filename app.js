@@ -7,9 +7,9 @@ const { weddingMap } = require('./maps/weddingMap.js')
 const inputFileName = 'csv/MARIAGE-riom-es-montagne.csv'
 
 
-const csvToXml = async (fileName, objectMap, type) => {
+const csvToXml = async (fileName, objectMap) => {
     return new Promise ((resolve, reject) => {
-        
+        let { root } = objectMap
         let xmlParameters = {
             _declaration: {
                 _attributes: {
@@ -18,7 +18,7 @@ const csvToXml = async (fileName, objectMap, type) => {
                 }
             },
             Contenu: {
-                [type]: []
+                [root]: []
             }
         }
 
@@ -31,7 +31,7 @@ const csvToXml = async (fileName, objectMap, type) => {
             .on('data', data => {
                 let o = resolveMap(objectMap, data)
         
-                xmlParameters.Contenu[type] = [...xmlParameters.Contenu[type], ...[o]]
+                xmlParameters.Contenu[root] = [...xmlParameters.Contenu[root], ...[o]]
             })
             .on('end', () => {
                 let json = JSON.stringify(xmlParameters, null, 2)
