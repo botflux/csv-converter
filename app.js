@@ -5,8 +5,6 @@ const { resolveMap } = require('./map.js')
 const { deceaseMap } = require('./maps/deceaseMap.js')
 const { weddingMap } = require('./maps/weddingMap.js')
 const { birthMap } = require('./maps/birthMap.js')
-const inputFileName = 'csv/NAISSANCE riom-es-montagne.csv'
-
 
 const csvToXml = async (fileName, objectMap) => {
     return new Promise ((resolve, reject) => {
@@ -22,7 +20,6 @@ const csvToXml = async (fileName, objectMap) => {
                 [root]: []
             }
         }
-
 
         fs.createReadStream(fileName)
             .pipe(csv({
@@ -43,6 +40,7 @@ const csvToXml = async (fileName, objectMap) => {
     })
 }
 
-csvToXml(inputFileName, birthMap).then (xml => {
-    fs.writeFile('csv/obj.xml', xml, _ => {})
-})
+exports.csvToXml =      csvToXml
+exports.weddingMap =    weddingMap
+exports.birthMap =      birthMap
+exports.deceaseMap =    deceaseMap
