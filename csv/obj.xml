@@ -1,171 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Contenu>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>1</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010111</Date_Deces>
-        <Heure_Deces>2130</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>1</Act_Numero>
         <Def_Nom>LEITNER</Def_Nom>
         <Def_Prenom_1>Bernhard</Def_Prenom_1>
+        <Date_Deces>19010111</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
+        <FichierImage>1901D001.Tif</FichierImage>
+        <Heure_Deces>2130</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
-        <Per_Nom>LEITNER</Per_Nom>
         <Per_Prenom_1>Johann</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>LEITNER</Per_Nom>
         <Mer_Prenom_1>Katharina</Mer_Prenom_1>
         <Mer_Nom>HASTNER</Mer_Nom>
-        <FichierImage>1901D001.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>2</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010214</Date_Deces>
-        <Heure_Deces>900</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>2</Act_Numero>
         <Def_Nom>PFEFFER</Def_Nom>
         <Def_Prenom_1>Johann</Def_Prenom_1>
+        <Date_Deces>19010214</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
+        <FichierImage>1901D002.Tif</FichierImage>
+        <Heure_Deces>900</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
-        <Per_Nom>PFEFFER</Per_Nom>
         <Per_Prenom_1>Dominik</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>PFEFFER</Per_Nom>
         <Mer_Prenom_1>Maria</Mer_Prenom_1>
         <Mer_Nom>BERNER</Mer_Nom>
-        <FichierImage>1901D002.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>3</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010221</Date_Deces>
-        <Heure_Deces>1900</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>3</Act_Numero>
         <Def_Nom>KOENIG</Def_Nom>
         <Def_Prenom_1>Maria</Def_Prenom_1>
+        <Date_Deces>19010221</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
+        <FichierImage>1901D003.Tif</FichierImage>
+        <Heure_Deces>1900</Heure_Deces>
         <Def_Nais_Commune>Bernweiler</Def_Nais_Commune>
-        <Per_Nom>KOENIG</Per_Nom>
         <Per_Prenom_1>Augustin</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>KOENIG</Per_Nom>
         <Mer_Prenom_1>Maria</Mer_Prenom_1>
         <Mer_Nom>NAFS</Mer_Nom>
-        <FichierImage>1901D003.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>4</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010227</Date_Deces>
-        <Heure_Deces>1730</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>4</Act_Numero>
         <Def_Nom>BOHLER</Def_Nom>
         <Def_Prenom_1>Josephine</Def_Prenom_1>
+        <Date_Deces>19010227</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
+        <FichierImage>1901D004.Tif</FichierImage>
+        <Heure_Deces>1730</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
-        <Per_Nom>BOHLER</Per_Nom>
         <Per_Prenom_1>Sebastian</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>BOHLER</Per_Nom>
         <Mer_Prenom_1>Theresia</Mer_Prenom_1>
         <Mer_Nom>BIEHLER</Mer_Nom>
-        <FichierImage>1901D004.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>5</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010308</Date_Deces>
-        <Heure_Deces>230</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>5</Act_Numero>
         <Def_Nom>SCHERRER</Def_Nom>
         <Def_Prenom_1>Emil</Def_Prenom_1>
+        <Date_Deces>19010308</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
+        <FichierImage>1901D005.Tif</FichierImage>
+        <Heure_Deces>230</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
-        <Per_Nom>SCHERRER</Per_Nom>
         <Per_Prenom_1>Theobald</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>SCHERRER</Per_Nom>
         <Mer_Prenom_1>Marie</Mer_Prenom_1>
         <Mer_Nom>BÜRCKEL</Mer_Nom>
-        <FichierImage>1901D005.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>6</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010424</Date_Deces>
-        <Heure_Deces>1600</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>6</Act_Numero>
         <Def_Nom>SCHAFFHAUSER</Def_Nom>
         <Def_Prenom_1>Michael</Def_Prenom_1>
+        <Date_Deces>19010424</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
+        <FichierImage>1901D006.Tif</FichierImage>
+        <Heure_Deces>1600</Heure_Deces>
         <Def_Nais_Commune>Linthal</Def_Nais_Commune>
-        <Per_Nom>SCHAFFHAUSER</Per_Nom>
         <Per_Prenom_1>Michael</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>SCHAFFHAUSER</Per_Nom>
         <Mer_Prenom_1>Franziska</Mer_Prenom_1>
         <Mer_Nom>SYREN</Mer_Nom>
-        <FichierImage>1901D006.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>7</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010611</Date_Deces>
-        <Heure_Deces>2030</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>7</Act_Numero>
         <Def_Nom>LEISER</Def_Nom>
         <Def_Prenom_1>Maria</Def_Prenom_1>
+        <Date_Deces>19010611</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
+        <FichierImage>1901D007.Tif</FichierImage>
+        <Heure_Deces>2030</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
-        <Per_Nom>LEISER</Per_Nom>
         <Per_Prenom_1>Emil</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>LEISER</Per_Nom>
         <Mer_Prenom_1>Magdalena</Mer_Prenom_1>
         <Mer_Nom>PETERSCHMITT</Mer_Nom>
-        <FichierImage>1901D007.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
     <Deces>
-        <Act_Statut>4</Act_Statut>
-        <Act_Numero>8</Act_Numero>
         <Act_Ordre>1901</Act_Ordre>
-        <Act_Date>*</Act_Date>
-        <Date_Deces>19010612</Date_Deces>
-        <Heure_Deces>1230</Heure_Deces>
-        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Act_Transcription>DE</Act_Transcription>
+        <Act_Numero>8</Act_Numero>
         <Def_Nom>TSCHANTZ</Def_Nom>
         <Def_Prenom_1>Maria</Def_Prenom_1>
+        <Date_Deces>19010612</Date_Deces>
+        <Act_Date>*</Act_Date>
+        <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
+        <FichierImage>1901D008.Tif</FichierImage>
+        <Heure_Deces>1230</Heure_Deces>
         <Def_Nais_Commune>Bollweiller</Def_Nais_Commune>
-        <Per_Nom>TSCHANTZ</Per_Nom>
         <Per_Prenom_1>Christian</Per_Prenom_1>
-        <Per_Sexe>1</Per_Sexe>
+        <Per_Nom>TSCHANTZ</Per_Nom>
         <Mer_Prenom_1>Anna</Mer_Prenom_1>
         <Mer_Nom>TSCHANTZ</Mer_Nom>
-        <FichierImage>1901D008.Tif</FichierImage>
-        <Sexe>2</Sexe>
     </Deces>
 </Contenu>

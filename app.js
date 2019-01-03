@@ -3,7 +3,6 @@ const csv = require('fast-csv')
 const convert = require('xml-js')
 const { resolveMap } = require('./map.js')
 const { deceaseMap } = require('./maps/deceaseMap.js')
-const { weddingMap } = require('./maps/weddingMap.js')
 
 const inputFileName = 'csv/my.min.csv'
 const type = 'Deces'

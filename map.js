@@ -25,7 +25,6 @@ const objectifyData = ({ defaultValue = "", newName = "Default" }, value) => {
 const resolveElement = (el, data) => {
 
     // REFACTORISER POUR QUE L'ON ENVOIE TOUTES LES DONNEES A CHAQUE FOIS
-
     const { resolveField = getData } = el
     return objectifyData(el, resolveField(data, el))
     //getData (el, data)
@@ -38,9 +37,23 @@ const resolveElement = (el, data) => {
  * @param {Object} data Data represents an entry of your collection, for example with CSV data is a row
  */
 const resolveMap = ({ map = [] }, data) => {
+    
+    let keys = Object.keys(data)
+    return keys.reduce((previous, current) => {
+        let matchingMap = map.find(mapElement => {
+            return mapElement.header === current
+        })
+        if (matchingMap !== undefined && matchingMap !== null) {
+            return {...previous, ...resolveElement(matchingMap, data)}
+        } else {
+            return previous
+        }
+    }, {})
+
+    /*
     return map.reduce((previous, current) => {
         return {...previous, ...resolveElement(current, data) }
-    }, {})
+    }, {})*/
 }
 
 exports.resolveElement = resolveElement
