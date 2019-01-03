@@ -3,24 +3,26 @@ const csv = require('fast-csv')
 const convert = require('xml-js')
 const { resolveMap } = require('./map.js')
 const { deceaseMap } = require('./maps/deceaseMap.js')
+const { weddingMap } = require('./maps/weddingMap.js')
+const inputFileName = 'csv/MARIAGE-riom-es-montagne.csv'
 
-const inputFileName = 'csv/my.min.csv'
-const type = 'Deces'
 
-let xmlParameters = {
-    _declaration: {
-        _attributes: {
-            version: "1.0",
-            encoding: "utf-8"
-        }
-    },
-    Contenu: {
-        [type]: []
-    }
-}
-
-const csvToXml = async (fileName, objectMap) => {
+const csvToXml = async (fileName, objectMap, type) => {
     return new Promise ((resolve, reject) => {
+        
+        let xmlParameters = {
+            _declaration: {
+                _attributes: {
+                    version: "1.0",
+                    encoding: "utf-8"
+                }
+            },
+            Contenu: {
+                [type]: []
+            }
+        }
+
+
         fs.createReadStream(fileName)
             .pipe(csv({
                 delimiter: ';',
@@ -40,6 +42,6 @@ const csvToXml = async (fileName, objectMap) => {
     })
 }
 
-csvToXml(inputFileName, deceaseMap).then (xml => {
+csvToXml(inputFileName, weddingMap, 'Mariage').then (xml => {
     fs.writeFile('csv/obj.xml', xml, _ => {})
 })
