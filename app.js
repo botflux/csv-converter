@@ -19,30 +19,27 @@ let xmlParameters = {
     }
 }
 
-/**
- * Read the file stream and pipe it to a csv reader.
- * All rows are read asynchronously.
- */
-const stream = fs.createReadStream(inputFileName)
-    .pipe(csv({
-        delimiter: ';',
-        headers: true,
-    }))
-    .on('data', data => {
-        let o = {}
-
-        o = resolveMap(deceaseMap, data)
-
-        xmlParameters.Contenu[type] = [...xmlParameters.Contenu[type], ...[o]]
-    })
-    .on('end', () => {
+const csvToXml = async (fileName, objectMap) => {
+    return new Promise ((resolve, reject) => {
+        fs.createReadStream(fileName)
+            .pipe(csv({
+                delimiter: ';',
+                headers: true,
+            }))
+            .on('data', data => {
+                let o = resolveMap(objectMap, data)
         
-        let json = JSON.stringify(xmlParameters, null, 2)
-        //console.log('done', json)
-        fs.writeFile('csv/obj.json', json, e => {
-            //console.error (e)
-        })
-
-        let xml = convert.json2xml(json, { compact: true, ignoreComment: true, spaces: 4 })
-        fs.writeFile('csv/obj.xml', xml, e => {})
+                xmlParameters.Contenu[type] = [...xmlParameters.Contenu[type], ...[o]]
+            })
+            .on('end', () => {
+                let json = JSON.stringify(xmlParameters, null, 2)
+        
+                let xml = convert.json2xml(json, { compact: true, ignoreComment: true, spaces: 4 })
+                resolve(xml)
+            })
     })
+}
+
+csvToXml(inputFileName, deceaseMap).then (xml => {
+    fs.writeFile('csv/obj.xml', xml, _ => {})
+})
