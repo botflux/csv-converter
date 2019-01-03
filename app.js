@@ -5,7 +5,7 @@ const { resolveMap } = require('./map.js')
 const { deceaseMap } = require('./maps/deceaseMap.js')
 const { weddingMap } = require('./maps/weddingMap.js')
 
-const inputFileName = 'csv/my.csv'
+const inputFileName = 'csv/my.min.csv'
 const type = 'Deces'
 
 let xmlParameters = {

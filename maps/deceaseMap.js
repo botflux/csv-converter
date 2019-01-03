@@ -1,3 +1,5 @@
+const { getFirstWord } = require ('../helpers.js')
+
 exports.deceaseMap = {
     root: 'Deces',
     map: [
@@ -41,8 +43,8 @@ exports.deceaseMap = {
         {
             header: 'prenom',
             newName: 'Def_Prenom_1',
-            resolveField: (data) => {
-                return data.split(' ')[0]
+            resolveField: (data, { header = null }) => {
+                return getFirstWord(data[header])
             }
         },
         {
@@ -59,7 +61,10 @@ exports.deceaseMap = {
         },
         {
             header: 'prenom1 père',
-            newName: 'Per_Prenom_1'
+            newName: 'Per_Prenom_1',
+            resolveField: (data, { header = null }) => {
+                return getFirstWord(data[header])
+            }
         },
         {
             header: null,
@@ -68,7 +73,10 @@ exports.deceaseMap = {
         }, 
         {
             header: 'prenom m',
-            newName: 'Mer_Prenom_1'
+            newName: 'Mer_Prenom_1',
+            resolveField: (data, { header = null }) => {
+                return getFirstWord(data[header])
+            }
         },
         {
             header: 'nom m',
@@ -76,7 +84,10 @@ exports.deceaseMap = {
         },
         {
             header: 'image 1',
-            newName: 'FichierImage'
+            newName: 'FichierImage',
+            resolveField: (data, { header = null }) => {
+                return data[header]
+            }
         },
         {
             header: null,

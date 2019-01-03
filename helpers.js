@@ -1,3 +1,9 @@
-exports.transformDate = (date) => {
-    return `${date.slice(0, 4)}-${date.slice(4, 6)}-${date.slice(6)}`
+/**
+ * Returns the first word of a string
+ * @param {String} str 
+ */
+const getFirstWord = (str) => {
+    return str.split(" ")[0]
 }
+
+exports.getFirstWord = getFirstWord
