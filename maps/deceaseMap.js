@@ -93,6 +93,6 @@ exports.deceaseMap = {
             header: null,
             newName: 'Sexe',
             defaultValue: 2
-        },
+        }
     ]
 }
