@@ -17,6 +17,9 @@
         <Per_Nom>LEITNER</Per_Nom>
         <Mer_Prenom_1>Katharina</Mer_Prenom_1>
         <Mer_Nom>HASTNER</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -35,6 +38,9 @@
         <Per_Nom>PFEFFER</Per_Nom>
         <Mer_Prenom_1>Maria</Mer_Prenom_1>
         <Mer_Nom>BERNER</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -53,6 +59,9 @@
         <Per_Nom>KOENIG</Per_Nom>
         <Mer_Prenom_1>Maria</Mer_Prenom_1>
         <Mer_Nom>NAFS</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -71,6 +80,9 @@
         <Per_Nom>BOHLER</Per_Nom>
         <Mer_Prenom_1>Theresia</Mer_Prenom_1>
         <Mer_Nom>BIEHLER</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -89,6 +101,9 @@
         <Per_Nom>SCHERRER</Per_Nom>
         <Mer_Prenom_1>Marie</Mer_Prenom_1>
         <Mer_Nom>BÜRCKEL</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -107,6 +122,9 @@
         <Per_Nom>SCHAFFHAUSER</Per_Nom>
         <Mer_Prenom_1>Franziska</Mer_Prenom_1>
         <Mer_Nom>SYREN</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -125,6 +143,9 @@
         <Per_Nom>LEISER</Per_Nom>
         <Mer_Prenom_1>Magdalena</Mer_Prenom_1>
         <Mer_Nom>PETERSCHMITT</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
     <Deces>
         <Act_Ordre>1901</Act_Ordre>
@@ -143,5 +164,8 @@
         <Per_Nom>TSCHANTZ</Per_Nom>
         <Mer_Prenom_1>Anna</Mer_Prenom_1>
         <Mer_Nom>TSCHANTZ</Mer_Nom>
+        <Act_Statut>4</Act_Statut>
+        <Per_Sexe>1</Per_Sexe>
+        <Sexe>2</Sexe>
     </Deces>
 </Contenu>

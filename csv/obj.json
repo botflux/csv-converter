@@ -23,7 +23,10 @@
         "Per_Prenom_1": "Johann",
         "Per_Nom": "LEITNER",
         "Mer_Prenom_1": "Katharina",
-        "Mer_Nom": "HASTNER"
+        "Mer_Nom": "HASTNER",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -41,7 +44,10 @@
         "Per_Prenom_1": "Dominik",
         "Per_Nom": "PFEFFER",
         "Mer_Prenom_1": "Maria",
-        "Mer_Nom": "BERNER"
+        "Mer_Nom": "BERNER",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -59,7 +65,10 @@
         "Per_Prenom_1": "Augustin",
         "Per_Nom": "KOENIG",
         "Mer_Prenom_1": "Maria",
-        "Mer_Nom": "NAFS"
+        "Mer_Nom": "NAFS",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -77,7 +86,10 @@
         "Per_Prenom_1": "Sebastian",
         "Per_Nom": "BOHLER",
         "Mer_Prenom_1": "Theresia",
-        "Mer_Nom": "BIEHLER"
+        "Mer_Nom": "BIEHLER",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -95,7 +107,10 @@
         "Per_Prenom_1": "Theobald",
         "Per_Nom": "SCHERRER",
         "Mer_Prenom_1": "Marie",
-        "Mer_Nom": "BÜRCKEL"
+        "Mer_Nom": "BÜRCKEL",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -113,7 +128,10 @@
         "Per_Prenom_1": "Michael",
         "Per_Nom": "SCHAFFHAUSER",
         "Mer_Prenom_1": "Franziska",
-        "Mer_Nom": "SYREN"
+        "Mer_Nom": "SYREN",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -131,7 +149,10 @@
         "Per_Prenom_1": "Emil",
         "Per_Nom": "LEISER",
         "Mer_Prenom_1": "Magdalena",
-        "Mer_Nom": "PETERSCHMITT"
+        "Mer_Nom": "PETERSCHMITT",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       },
       {
         "Act_Ordre": "1901",
@@ -149,7 +170,10 @@
         "Per_Prenom_1": "Christian",
         "Per_Nom": "TSCHANTZ",
         "Mer_Prenom_1": "Anna",
-        "Mer_Nom": "TSCHANTZ"
+        "Mer_Nom": "TSCHANTZ",
+        "Act_Statut": 4,
+        "Per_Sexe": 1,
+        "Sexe": 2
       }
     ]
   }
