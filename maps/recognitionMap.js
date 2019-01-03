@@ -1,3 +1,0 @@
-exports.recognitionMap = {
-    root: 'Reconnaissance'
-}

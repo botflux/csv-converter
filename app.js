@@ -4,7 +4,8 @@ const convert = require('xml-js')
 const { resolveMap } = require('./map.js')
 const { deceaseMap } = require('./maps/deceaseMap.js')
 const { weddingMap } = require('./maps/weddingMap.js')
-const inputFileName = 'csv/MARIAGE-riom-es-montagne.csv'
+const { birthMap } = require('./maps/birthMap.js')
+const inputFileName = 'csv/NAISSANCE riom-es-montagne.csv'
 
 
 const csvToXml = async (fileName, objectMap) => {
@@ -14,7 +15,7 @@ const csvToXml = async (fileName, objectMap) => {
             _declaration: {
                 _attributes: {
                     version: "1.0",
-                    encoding: "utf-8"
+                    encoding: "iso-8859-1"
                 }
             },
             Contenu: {
@@ -42,6 +43,6 @@ const csvToXml = async (fileName, objectMap) => {
     })
 }
 
-csvToXml(inputFileName, weddingMap, 'Mariage').then (xml => {
+csvToXml(inputFileName, birthMap).then (xml => {
     fs.writeFile('csv/obj.xml', xml, _ => {})
 })
