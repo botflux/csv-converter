@@ -1,4 +1,4 @@
-const { getFirstWord } = require ('../helpers.js')
+const { getFirstWord, getNumberOn3Digits } = require ('../helpers.js')
 
 exports.deceaseMap = {
     root: 'Deces',
@@ -83,10 +83,10 @@ exports.deceaseMap = {
             newName: 'Mer_Nom'
         },
         {
-            header: 'image 1',
+            header: null,
             newName: 'FichierImage',
             resolveField: (data, { header = null }) => {
-                return data[header]
+                return `${data['annee']}D${getNumberOn3Digits(data["numero d'acte"])}.tif`
             }
         },
         {

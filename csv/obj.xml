@@ -10,7 +10,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
-        <FichierImage>1901D001.Tif</FichierImage>
         <Heure_Deces>2130</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
         <Per_Prenom_1>Johann</Per_Prenom_1>
@@ -19,6 +18,7 @@
         <Mer_Nom>HASTNER</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D001.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -31,7 +31,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
-        <FichierImage>1901D002.Tif</FichierImage>
         <Heure_Deces>900</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
         <Per_Prenom_1>Dominik</Per_Prenom_1>
@@ -40,6 +39,7 @@
         <Mer_Nom>BERNER</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D002.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -52,7 +52,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
-        <FichierImage>1901D003.Tif</FichierImage>
         <Heure_Deces>1900</Heure_Deces>
         <Def_Nais_Commune>Bernweiler</Def_Nais_Commune>
         <Per_Prenom_1>Augustin</Per_Prenom_1>
@@ -61,6 +60,7 @@
         <Mer_Nom>NAFS</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D003.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -73,7 +73,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
-        <FichierImage>1901D004.Tif</FichierImage>
         <Heure_Deces>1730</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
         <Per_Prenom_1>Sebastian</Per_Prenom_1>
@@ -82,6 +81,7 @@
         <Mer_Nom>BIEHLER</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D004.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -94,7 +94,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
-        <FichierImage>1901D005.Tif</FichierImage>
         <Heure_Deces>230</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
         <Per_Prenom_1>Theobald</Per_Prenom_1>
@@ -103,6 +102,7 @@
         <Mer_Nom>BÜRCKEL</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D005.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -115,7 +115,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>1</Def_Sexe>
-        <FichierImage>1901D006.Tif</FichierImage>
         <Heure_Deces>1600</Heure_Deces>
         <Def_Nais_Commune>Linthal</Def_Nais_Commune>
         <Per_Prenom_1>Michael</Per_Prenom_1>
@@ -124,6 +123,7 @@
         <Mer_Nom>SYREN</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D006.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -136,7 +136,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
-        <FichierImage>1901D007.Tif</FichierImage>
         <Heure_Deces>2030</Heure_Deces>
         <Def_Nais_Commune>Staffelfelden</Def_Nais_Commune>
         <Per_Prenom_1>Emil</Per_Prenom_1>
@@ -145,6 +144,7 @@
         <Mer_Nom>PETERSCHMITT</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D007.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
     <Deces>
@@ -157,7 +157,6 @@
         <Act_Date>*</Act_Date>
         <Lie_Commune>Staffelfelden</Lie_Commune>
         <Def_Sexe>2</Def_Sexe>
-        <FichierImage>1901D008.Tif</FichierImage>
         <Heure_Deces>1230</Heure_Deces>
         <Def_Nais_Commune>Bollweiller</Def_Nais_Commune>
         <Per_Prenom_1>Christian</Per_Prenom_1>
@@ -166,6 +165,7 @@
         <Mer_Nom>TSCHANTZ</Mer_Nom>
         <Act_Statut>4</Act_Statut>
         <Per_Sexe>1</Per_Sexe>
+        <FichierImage>1901D008.tif</FichierImage>
         <Sexe>2</Sexe>
     </Deces>
 </Contenu>

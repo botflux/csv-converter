@@ -17,7 +17,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "1",
-        "FichierImage": "1901D001.Tif",
         "Heure_Deces": "2130",
         "Def_Nais_Commune": "Staffelfelden",
         "Per_Prenom_1": "Johann",
@@ -26,6 +25,7 @@
         "Mer_Nom": "HASTNER",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D001.tif",
         "Sexe": 2
       },
       {
@@ -38,7 +38,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "1",
-        "FichierImage": "1901D002.Tif",
         "Heure_Deces": "900",
         "Def_Nais_Commune": "Staffelfelden",
         "Per_Prenom_1": "Dominik",
@@ -47,6 +46,7 @@
         "Mer_Nom": "BERNER",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D002.tif",
         "Sexe": 2
       },
       {
@@ -59,7 +59,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "2",
-        "FichierImage": "1901D003.Tif",
         "Heure_Deces": "1900",
         "Def_Nais_Commune": "Bernweiler",
         "Per_Prenom_1": "Augustin",
@@ -68,6 +67,7 @@
         "Mer_Nom": "NAFS",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D003.tif",
         "Sexe": 2
       },
       {
@@ -80,7 +80,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "2",
-        "FichierImage": "1901D004.Tif",
         "Heure_Deces": "1730",
         "Def_Nais_Commune": "Staffelfelden",
         "Per_Prenom_1": "Sebastian",
@@ -89,6 +88,7 @@
         "Mer_Nom": "BIEHLER",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D004.tif",
         "Sexe": 2
       },
       {
@@ -101,7 +101,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "1",
-        "FichierImage": "1901D005.Tif",
         "Heure_Deces": "230",
         "Def_Nais_Commune": "Staffelfelden",
         "Per_Prenom_1": "Theobald",
@@ -110,6 +109,7 @@
         "Mer_Nom": "BÜRCKEL",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D005.tif",
         "Sexe": 2
       },
       {
@@ -122,7 +122,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "1",
-        "FichierImage": "1901D006.Tif",
         "Heure_Deces": "1600",
         "Def_Nais_Commune": "Linthal",
         "Per_Prenom_1": "Michael",
@@ -131,6 +130,7 @@
         "Mer_Nom": "SYREN",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D006.tif",
         "Sexe": 2
       },
       {
@@ -143,7 +143,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "2",
-        "FichierImage": "1901D007.Tif",
         "Heure_Deces": "2030",
         "Def_Nais_Commune": "Staffelfelden",
         "Per_Prenom_1": "Emil",
@@ -152,6 +151,7 @@
         "Mer_Nom": "PETERSCHMITT",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D007.tif",
         "Sexe": 2
       },
       {
@@ -164,7 +164,6 @@
         "Act_Date": "*",
         "Lie_Commune": "Staffelfelden",
         "Def_Sexe": "2",
-        "FichierImage": "1901D008.Tif",
         "Heure_Deces": "1230",
         "Def_Nais_Commune": "Bollweiller",
         "Per_Prenom_1": "Christian",
@@ -173,6 +172,7 @@
         "Mer_Nom": "TSCHANTZ",
         "Act_Statut": 4,
         "Per_Sexe": 1,
+        "FichierImage": "1901D008.tif",
         "Sexe": 2
       }
     ]
