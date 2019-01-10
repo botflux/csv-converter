@@ -15,8 +15,7 @@ exports.deceaseMap = {
         {
             header: null,
             newName: 'Act_Ordre',
-            resolveField: (data, { header = null }, state) => {
-                console.log('state', state)
+            resolveField: (data, { header = null }) => {
                 let i=0
                 return data['numero_acte'] + i
             }

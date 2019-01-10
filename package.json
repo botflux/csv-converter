@@ -1,7 +1,10 @@
 {
   "name": "@botflx/csv",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
+  "repository": {
+    "homepage": "https://github.com/botflux/csv-converter"
+  },
   "main": "app.js",
   "scripts": {
     "test": "mocha",

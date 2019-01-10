@@ -25,9 +25,8 @@ const objectifyData = ({ defaultValue = "", newName = "Default" }, value) => {
  * @param {Object} data The data that need to be resolve
  */
 const resolveElement = (el, data) => {
-    console.log('state before', state)
     const { resolveField = getData, removeIfEmpty = false } = el
-    let resolved = resolveField(data, el, state)
+    let resolved = resolveField(data, el)
     
     if (removeIfEmpty && isNullOrEmpty(resolved)) {
         return {}
@@ -53,7 +52,6 @@ const resolveMap = (objectMap, data) => {
             return mapElement.header === current
         })
         if (matchingMap !== undefined && matchingMap !== null) {
-            console.log('root', state)
             return {...previous, ...resolveElement(matchingMap, data)}
         }
 
