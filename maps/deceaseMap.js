@@ -5,28 +5,25 @@ exports.deceaseMap = {
     map: [
         {
             header: null,
-            defaultValue: 4,
+            defaultValue: 3,
             newName: 'Act_Statut',
         },
         {
-            header: `numero d'acte`,
+            header: `numero_acte`,
             newName: 'Act_Numero',
         },
         {
-            header: `annee`,
+            header: null,
             newName: 'Act_Ordre',
+            resolveField: (data, { header = null }, state) => {
+                console.log('state', state)
+                let i=0
+                return data['numero_acte'] + i
+            }
         },
         {
-            header: `date de transcription`,
-            newName: 'Act_Date'
-        },
-        {
-            header: 'date de deces',
+            header: 'date_de_deces',
             newName: 'Date_Deces'
-        },
-        {
-            header: `heure`,
-            newName: 'Heure_Deces',
         },
         {
             header: 'ville',
@@ -34,64 +31,41 @@ exports.deceaseMap = {
         },
         {
             header: 'type',
-            newName: 'Act_Transcription'
-        },
-        {
+            newName: 'Act_Transcription',
+            resolveField: (data, { header = null }) => {
+                return data[header] === 'DE' ? '0' : data[header] === 'TD' ? '1' : ''
+            }
+        }, {
             header: 'nom',
             newName: 'Def_Nom'
-        },
-        {
-            header: 'prenom',
-            newName: 'Def_Prenom_1',
-            resolveField: (data, { header = null }) => {
-                return getFirstWord(data[header])
-            }
-        },
-        {
-            header: 'code sexe',
+        }, {
+            header: 'code_sexe',
             newName: 'Def_Sexe'
         },
         {
-            header: 'ville de naissance',
+            header: 'ville_de_naissance',
             newName: 'Def_Nais_Commune'
         },
         {
-            header: 'nom père',
+            header: 'nom_pere',
             newName: 'Per_Nom'
-        },
-        {
-            header: 'prenom1 père',
-            newName: 'Per_Prenom_1',
-            resolveField: (data, { header = null }) => {
-                return getFirstWord(data[header])
-            }
-        },
-        {
+        }, {
             header: null,
             newName: 'Per_Sexe',
             defaultValue: 1
-        }, 
-        {
-            header: 'prenom m',
-            newName: 'Mer_Prenom_1',
-            resolveField: (data, { header = null }) => {
-                return getFirstWord(data[header])
-            }
-        },
-        {
-            header: 'nom m',
+        }, {
+            header: 'nom_mere',
             newName: 'Mer_Nom'
-        },
-        {
+        }, {
             header: null,
             newName: 'FichierImage',
             resolveField: (data, { header = null }) => {
-                return `${data['annee']}D${getNumberOn3Digits(data["numero d'acte"])}.tif`
+                return `${data['annee']}D${getNumberOn3Digits(Number.parseInt(data["numero_acte"]))}.tif`
             }
         },
         {
             header: null,
-            newName: 'Sexe',
+            newName: 'Mer_Sexe',
             defaultValue: 2
         }
     ]

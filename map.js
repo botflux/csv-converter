@@ -24,9 +24,8 @@ const objectifyData = ({ defaultValue = "", newName = "Default" }, value) => {
  * @param {Object} el The map entry
  * @param {Object} data The data that need to be resolve
  */
-const resolveElement = (el, data, state) => {
-
-    // REFACTORISER POUR QUE L'ON ENVOIE TOUTES LES DONNEES A CHAQUE FOIS
+const resolveElement = (el, data) => {
+    console.log('state before', state)
     const { resolveField = getData, removeIfEmpty = false } = el
     let resolved = resolveField(data, el, state)
     
@@ -45,16 +44,17 @@ const resolveElement = (el, data, state) => {
  */
 const resolveMap = (objectMap, data) => {
     let keys = Object.keys(data)
-    const { map, state = {} } = objectMap
+    const { map } = objectMap
 
     // forEach key, we search for a map matching with this key
-    // if there is a map matcing this key then we resolve the data and return it
+    // if there is a map matching this key then we resolve the data and return it
     let reduced = keys.reduce((previous, current) => {
         let matchingMap = map.find(mapElement => {
             return mapElement.header === current
         })
         if (matchingMap !== undefined && matchingMap !== null) {
-            return {...previous, ...resolveElement(matchingMap, data, state)}
+            console.log('root', state)
+            return {...previous, ...resolveElement(matchingMap, data)}
         }
 
         return previous
