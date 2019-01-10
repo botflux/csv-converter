@@ -24,11 +24,11 @@ const objectifyData = ({ defaultValue = "", newName = "Default" }, value) => {
  * @param {Object} el The map entry
  * @param {Object} data The data that need to be resolve
  */
-const resolveElement = (el, data) => {
+const resolveElement = (el, data, state) => {
 
     // REFACTORISER POUR QUE L'ON ENVOIE TOUTES LES DONNEES A CHAQUE FOIS
     const { resolveField = getData, removeIfEmpty = false } = el
-    let resolved = resolveField(data, el)
+    let resolved = resolveField(data, el, state)
     
     if (removeIfEmpty && isNullOrEmpty(resolved)) {
         return {}
@@ -43,8 +43,9 @@ const resolveElement = (el, data) => {
  * @param {Object} mapObject The map matching your data 
  * @param {Object} data Data represents an entry of your collection, for example with CSV data is a row
  */
-const resolveMap = ({ map = [] }, data) => {
+const resolveMap = (objectMap, data) => {
     let keys = Object.keys(data)
+    const { map, state = {} } = objectMap
 
     // forEach key, we search for a map matching with this key
     // if there is a map matcing this key then we resolve the data and return it
@@ -53,7 +54,7 @@ const resolveMap = ({ map = [] }, data) => {
             return mapElement.header === current
         })
         if (matchingMap !== undefined && matchingMap !== null) {
-            return {...previous, ...resolveElement(matchingMap, data)}
+            return {...previous, ...resolveElement(matchingMap, data, state)}
         }
 
         return previous

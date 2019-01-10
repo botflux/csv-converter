@@ -12,5 +12,8 @@
   "dependencies": {
     "fast-csv": "^2.4.1",
     "xml-js": "^1.6.8"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   }
 }
